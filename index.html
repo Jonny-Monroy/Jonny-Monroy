@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Nombre - Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Sección de Inicio -->
+  <header>
+    <div class="container">
+      <h1>Tu Nombre</h1>
+      <p>Desarrollador GIS Full Stack</p>
+      <div class="social-links">
+        <a href="https://github.com/tuusuario" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/tuperfil" target="_blank">LinkedIn</a>
+        <a href="mailto:tu@email.com">Email</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sección de Proyectos -->
+  <section id="projects">
+    <div class="container">
+      <h2>Proyectos</h2>
+      <div class="project-grid">
+        <!-- Proyecto 1 -->
+        <div class="project-card">
+          <img src="assets/images/proyecto1.jpg" alt="Proyecto 1">
+          <h3>Visualización de datos GIS con Angular</h3>
+          <p>Aplicación Angular que consume datos geoespaciales y los visualiza en un mapa interactivo.</p>
+          <a href="https://github.com/tuusuario/proyecto1" target="_blank">Ver en GitHub</a>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="project-card">
+          <img src="assets/images/proyecto2.jpg" alt="Proyecto 2">
+          <h3>API REST con Spring Boot y PostGIS</h3>
+          <p>API REST que expone datos geoespaciales almacenados en PostGIS.</p>
+          <a href="https://github.com/tuusuario/proyecto2" target="_blank">Ver en GitHub</a>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="project-card">
+          <img src="assets/images/proyecto3.jpg" alt="Proyecto 3">
+          <h3>Análisis espacial con Oracle</h3>
+          <p>Scripts SQL y Python para análisis espacial usando Oracle 19c.</p>
+          <a href="https://github.com/tuusuario/proyecto3" target="_blank">Ver en GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Habilidades -->
+  <section id="skills">
+    <div class="container">
+      <h2>Habilidades</h2>
+      <div class="skills-list">
+        <span>Angular</span>
+        <span>TypeScript</span>
+        <span>Java JEE</span>
+        <span>Spring Boot</span>
+        <span>Oracle</span>
+        <span>PostGIS</span>
+        <span>ArcGIS</span>
+        <span>QGIS</span>
+        <span>Azure DevOps</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Contacto -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contacto</h2>
+      <form action="https://formspree.io/f/tuformid" method="POST">
+        <input type="text" name="name" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu email" required>
+        <textarea name="message" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Tu Nombre. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
