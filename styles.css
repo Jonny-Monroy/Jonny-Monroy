@@ -1,23 +1,25 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #1e1e1e; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
     line-height: 1.6;
-    color: #333;
   }
   
   .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 2rem 0;
   }
   
   /* Header */
   header {
-    background: #0078d4;
-    color: #fff;
-    padding: 2rem 0;
+    background-color: #0078d4; /* Azul brillante */
+    color: #ffffff;
+    padding: 4rem 0;
     text-align: center;
   }
   
@@ -32,27 +34,57 @@ body {
   }
   
   .social-links a {
-    color: #fff;
+    color: #ffffff;
     margin: 0 0.5rem;
     text-decoration: none;
+    font-weight: bold;
   }
   
-  /* Proyectos */
-  #projects {
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Secciones */
+  section {
     padding: 2rem 0;
   }
   
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #0078d4; /* Azul brillante */
+  }
+  
+  /* Experiencia */
+  .experience-item {
+    background-color: #2d2d2d; /* Fondo gris oscuro */
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .experience-item h3 {
+    margin: 0 0 0.5rem;
+    color: #0078d4; /* Azul brillante */
+  }
+  
+  /* Proyectos */
   .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
+    gap: 1.5rem;
   }
   
   .project-card {
-    border: 1px solid #ddd;
-    padding: 1rem;
+    background-color: #2d2d2d; /* Fondo gris oscuro */
+    padding: 1.5rem;
     border-radius: 8px;
     text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px); /* Efecto hover */
   }
   
   .project-card img {
@@ -62,21 +94,22 @@ body {
   
   .project-card h3 {
     margin: 1rem 0 0.5rem;
+    color: #0078d4; /* Azul brillante */
   }
   
   .project-card a {
     display: inline-block;
     margin-top: 1rem;
-    color: #0078d4;
+    color: #0078d4; /* Azul brillante */
     text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-card a:hover {
+    text-decoration: underline;
   }
   
   /* Habilidades */
-  #skills {
-    padding: 2rem 0;
-    background: #f4f4f4;
-  }
-  
   .skills-list {
     display: flex;
     flex-wrap: wrap;
@@ -84,17 +117,14 @@ body {
   }
   
   .skills-list span {
-    background: #0078d4;
-    color: #fff;
+    background-color: #0078d4; /* Azul brillante */
+    color: #ffffff;
     padding: 0.5rem 1rem;
     border-radius: 20px;
+    font-size: 0.9rem;
   }
   
   /* Contacto */
-  #contact {
-    padding: 2rem 0;
-  }
-  
   form {
     display: flex;
     flex-direction: column;
@@ -103,23 +133,30 @@ body {
   
   form input, form textarea {
     padding: 0.5rem;
-    border: 1px solid #ddd;
+    border: 1px solid #444;
     border-radius: 4px;
+    background-color: #2d2d2d; /* Fondo gris oscuro */
+    color: #ffffff;
   }
   
   form button {
     padding: 0.5rem;
-    background: #0078d4;
-    color: #fff;
+    background-color: #0078d4; /* Azul brillante */
+    color: #ffffff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-weight: bold;
+  }
+  
+  form button:hover {
+    background-color: #005bb5; /* Azul más oscuro */
   }
   
   /* Footer */
   footer {
-    background: #333;
-    color: #fff;
+    background-color: #0078d4; /* Azul brillante */
+    color: #ffffff;
     text-align: center;
     padding: 1rem 0;
   }
