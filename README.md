@@ -1,4 +1,4 @@
-# ¡Hola! Soy Jonny Monroy 👋
+# ¡Hola! Soy Jonny Monroy
 
 **Data Scientist & GIS FullStack Developer** con 5+ años convirtiendo datos geoespaciales en decisiones — de 5,4 millones de registros geoquímicos a pipelines de movilidad para 14 corredores de Bogotá.
 
