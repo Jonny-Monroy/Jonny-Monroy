@@ -21,8 +21,10 @@ jonny = DataScientist(
 | 🔬 [geochem-ml-hdm](https://github.com/Jonny-Monroy/geochem-ml-hdm) | App Shiny + ML (PCA, LDA, RF) para procedencia de muestras geoquímicas — demo del proyecto *Huella Digital de Minerales* (SGC) | **92 %** de precisión clasificando 5,4 M de registros |
 | ⚡ [bogota-mobility-spark](https://github.com/Jonny-Monroy/bogota-mobility-spark) | Pipeline PySpark + Delta Lake (medallón bronze/silver/gold) para velocidades de corredores, listo para Databricks | Re-escalado del pipeline productivo de la SDM |
 | 🚦 [mobility-etl-pipelines](https://github.com/Jonny-Monroy/mobility-etl-pipelines) | 3 pipelines ETL de misión crítica (Waze→Oracle, TSS→BigQuery, API→GIS) desensibilizados y con tests | **-80 %** tiempo de procesamiento en producción |
-| 🌐 GeoDataInsights Platform | Plataforma geoespacial empresarial open-source (GeoNode + GeoServer + PostGIS) — *ArcGIS Enterprise sin licencias* | Producto de mi marca propia |
-| 📦 SAJI GO · POS · Mensajería | Suite de productos last-mile y retail: Node/Express + PostGIS + React PWA, pricing geoespacial real (`ST_Distance`, `ST_Within`) | En producción para negocio familiar |
+| 🌐 [GeoDataInsights Platform](https://github.com/Jonny-Monroy/geodata-platform) | Plataforma geoespacial empresarial open-source (GeoNode + GeoServer + PostGIS) — *ArcGIS Enterprise sin licencias* | Producto de mi marca propia |
+| 📦 [saji-go](https://github.com/Jonny-Monroy/saji-go) | Plataforma última milla: pricing geoespacial con `ST_Distance`/`ST_Within` en PostGIS, React PWA + admin, Docker | Producto para negocio real |
+| 📮 [mensajeria-app-web](https://github.com/Jonny-Monroy/mensajeria-app-web) | Sistema de guías con módulo financiero: consignaciones, contraentrega y cierres de caja | Producto completo con docs |
+| 🛒 [saji-pos](https://github.com/Jonny-Monroy/saji-pos) | POS transaccional (stock con `SELECT FOR UPDATE`, IVA 19 %, roles) | **En producción** en Render |
 
 ## 📊 Datos que cuentan
 
